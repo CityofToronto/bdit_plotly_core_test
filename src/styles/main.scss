@@ -1,0 +1,72 @@
+//A sample main scss file. Use this as a starting point for your css.
+//Learn more about SASS here: http://sass-lang.com/guide
+@import "partial_styles"; //A sample usage of a SASS partials!
+
+$light-gray: #eee; //A sample usage of SASS variables!
+
+.div {
+  width: 350px;
+  display: inline-block;
+}
+
+
+
+#bdit_plotly_core_test_container {
+  ul.example-section-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    li {
+      padding: 0;
+      margin: 5px;
+      a {
+        display: block;
+        padding: 5px;
+        &.selected-section {
+          background-color: $light-gray;
+        }
+      }
+    }
+  }
+  .example-section {
+    display: none;
+    button {
+      margin-right: 5px;
+    }
+    &#bdit_plotly_core_test_map > div {
+      height: 400px;
+      .example-map-info-box {
+        background: white;
+        margin: 10px;
+        padding: 10px;
+        div {
+          clear: both;
+        }
+      }
+    }
+  }
+}
+.custom-modal {
+  .modal-header {
+    background-color: $light-gray;
+  }
+}
+
+//Core uses https://www.npmjs.com/package/gulp-preprocess to allow for preprocessing.
+//You could include some styles based on build environment:
+/* @if ENV=='local' || ENV=='dev'*/
+.test-style {
+  color: red;
+  font-size: 36px;
+}
+/* @endif */
+
+//you could also generate selector names with preprocessar vars:
+.env-class-/* @echo ENV*/
+{
+}
+
+//IMPORTANT: you should generate all resource references with the SRC_PATH var:
+.test-background-image{
+  background-image: url(/* @echo SRC_PATH*//img/sample.jpg);
+}

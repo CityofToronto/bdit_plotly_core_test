@@ -61,6 +61,10 @@ Remember to use unique element IDs and class names so that this app doesn't inte
 <!-- cot-app:body -->
  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 
+<input type="button" id="tog" onclick="toggle();" value="--> Table">
+<input type="button" id="filter" onclick="toggleTAB();" value="Filtered Table">
+<br><br>
+
  <select id="AMPM" onchange="graphdata();">
      <option id="AM" value="AM" name="AM" selected="selected">AM</option>
      <option id="PM" value="PM" name="PM">PM</option>
@@ -76,12 +80,24 @@ Remember to use unique element IDs and class names so that this app doesn't inte
  </select>
  <br>
 
-<div id="mydiv1" class="div"></div>
-<div id="mydiv2" class="div"></div>
-<div id="mydiv3" class="div"></div>
-<div id="mydiv4" class="div"></div>
-<div id="mydiv5" class="div"></div>
-<div id="mydiv6" class="div"></div>
+<div id="totalgra">
+<div id="mydiv1" class="graph"></div>
+<div id="mydiv2" class="graph"></div>
+<div id="mydiv3" class="graph"></div>
+<div id="mydiv4" class="graph"></div>
+<div id="mydiv5" class="graph"></div>
+<div id="mydiv6" class="graph"></div>
+</div>
+
+<div id="wholetab" class="wtable"></div>
+<div id="totaltab">
+<div id="mytab1" class="table"></div>
+<div id="mytab2" class="table"></div>
+<div id="mytab3" class="table"></div>
+<div id="mytab4" class="table"></div>
+<div id="mytab5" class="table"></div>
+<div id="mytab6" class="table"></div>
+</div>
 
 <!-- cot-app:body end-->
 
@@ -105,7 +121,8 @@ It should contain script references that this application requires.
 
 <script type="text/javascript" src="<!-- @echo SRC_PATH -->/scripts/car.js"></script>
 <script type="text/javascript" src="<!-- @echo SRC_PATH -->/scripts/baseline.js"></script>
-<script type="text/javascript" src="<!-- @echo SRC_PATH -->/scripts/plotly.js"></script>
+<script type="text/javascript" src="<!-- @echo SRC_PATH -->/scripts/plotly_graph.js"></script>
+<script type="text/javascript" src="<!-- @echo SRC_PATH -->/scripts/plotly_table.js"></script>
 
 <!-- endbuild -->
 

@@ -4,11 +4,32 @@
 
 $light-gray: #eee; //A sample usage of SASS variables!
 
-.div {
+.graph {
   width: 350px;
   height: 350px;
   display: inline-block;
 }
+
+.table {
+  width: 550px;
+  height: 550px;
+  display: inline-block;
+}
+
+#filter {
+  display:none;
+}
+
+#totaltab {
+  display: none;
+}
+
+#wholetab {
+  display: none;
+  height: 600px;
+  z-index: 20;
+}
+
 
 
 

@@ -20,6 +20,7 @@ function toggle(){
     totalgra.style.display = "none";
     period.style.display = "none";
     filter.style.display = "inline-block";
+    filter.value = "Filtered tables";
     month.style.display = "none";
     wtable.style.display = "block";
     togbutton.value = "Graphs";
@@ -31,7 +32,7 @@ function toggleTAB(){
   if (wtable.style.display == "none") {
     wtable.style.display = "block";
     totaltab.style.display = "none";
-    filter.value = "Filtered Tables";
+    filter.value = "Filtered tables";
   } else {
     wtable.style.display = "none";
     totaltab.style.display = "block";

@@ -9,6 +9,13 @@ const gulp = require('gulp');
 const core = require('./bower_components/core/gulp_helper');
 const pkg = require('./package.json');
 
+var ghPages = require('gulp-gh-pages');
+
+gulp.task('gh-deploy', function() {
+  return gulp.src('./dist/**/*')
+    .pipe(ghPages());
+});
+
 //You should pass options to the createTasks method below
 let options = {
   pkg, //pass in the contents of package.json
@@ -56,6 +63,7 @@ let options = {
 //This creates several gulp tasks to use during development:
 //default, clean, build, build_with_simulator, run, deploy:dev, deploy:qa, deploy:prod
 core.embeddedApp.createTasks(gulp, options);
+
 
 
 //Note that you can override any task that createTasks added, by redefining it after the call to createTasks

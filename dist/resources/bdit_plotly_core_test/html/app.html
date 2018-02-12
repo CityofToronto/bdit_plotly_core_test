@@ -1,0 +1,93 @@
+<!--
+IMPORTANT:
+Any resources from this project should be referenced using SRC_PATH preprocessor var.
+See examples below in the boilerplate code
+-->
+
+<!--
+1. HEADER
+Everything inside this cot-app:head tag will be loaded at the end of the page's HEAD tag.
+It should contain stylesheet references (and possibly other stuff) that this application requires.
+-->
+<!-- cot-app:head -->
+
+
+<!-- From here to the next endbuild tag, all the files will be concatenated into a single file called main.css: -->
+<link rel="stylesheet" href="/resources/bdit_plotly_core_test/styles/main.css">
+
+<!-- From here to the next endbuild tag, all the files will be concatenated into a single print-only file called core_print.css: -->
+<link rel="stylesheet" href="/resources/bdit_plotly_core_test/styles/core_print.css" media="print">
+<!-- cot-app:head end-->
+
+<!--
+2. BODY
+Everything inside this cot-app:body tag will be loaded inside the webpage
+It should contain the HTML elements that make up the visual portion of this application.
+IMPORTANT:
+Remember to use unique element IDs and class names so that this app doesn't interfere with other parts of the cframe/website
+-->
+
+<!-- cot-app:body -->
+ <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+<input type="button" id="tog" onclick="toggle();" value="--> Table">
+<input type="button" id="filter" onclick="toggleTAB();" value="Filtered Table">
+<br><br>
+
+ <select id="AMPM" onchange="graphdata();">
+     <option id="AM" value="AM" name="AM" selected="selected">AM</option>
+     <option id="PM" value="PM" name="PM">PM</option>
+ </select>
+
+
+ <select id="month" onchange="graphdata();">
+     <option id="all" value="all" name="month">ALL</option>
+     <option id="9" value="9" name="month" selected="selected">September</option>
+     <option id="10" value="10" name="month">October</option>
+     <option id="11" value="11" name="month">November</option>
+     <option id="12" value="12" name="month">December</2018>
+ </select>
+ <br>
+
+<div id="totalgra">
+<div id="mydiv1" class="graph"></div>
+<div id="mydiv2" class="graph"></div>
+<div id="mydiv3" class="graph"></div>
+<div id="mydiv4" class="graph"></div>
+<div id="mydiv5" class="graph"></div>
+<div id="mydiv6" class="graph"></div>
+</div>
+
+<div id="wholetab" class="wtable"></div>
+<div id="totaltab">
+<div id="mytab1" class="table"></div>
+<div id="mytab2" class="table"></div>
+<div id="mytab3" class="table"></div>
+<div id="mytab4" class="table"></div>
+<div id="mytab5" class="table"></div>
+<div id="mytab6" class="table"></div>
+</div>
+
+<!-- cot-app:body end-->
+
+<!--
+3. FOOTER
+Everything inside the cot-app:footer tag will be loaded at the end of the page's BODY tag.
+It should contain script references that this application requires.
+-->
+<!-- cot-app:footer -->
+
+<!--This google maps link is included for the example code.-->
+<!--Note that because this is loaded via CDN, it MUST be placed before the start of the build tag below-->
+
+<!-- From here to the next endbuild tag, all the files will be concatenated into a single file called main.js: -->
+<script src="/resources/bdit_plotly_core_test/scripts/main.js"></script>
+
+<!-- Here we log out some debug info for non-production builds-->
+<script type="text/javascript">
+  console.log('bdit_plotly_core_test running on local environment');
+  console.log('bdit_plotly_core_test qa release: 0');
+  console.log('bdit_plotly_core_test build: 2018-2-12-9-24-26');
+</script>
+
+<!-- cot-app:footer end-->

@@ -12,6 +12,7 @@ function toggle(){
     totalgra.style.display = "inline-block";
     period.style.display = "inline-block";
     month.style.display = "inline-block";
+    vol_map.style.display = "block";
     wtable.style.display = "none";
     totaltab.style.display = "none";
     filter.style.display = "none";
@@ -22,6 +23,7 @@ function toggle(){
     filter.style.display = "inline-block";
     filter.value = "Filtered tables";
     month.style.display = "none";
+    vol_map.style.display = "none";
     wtable.style.display = "block";
     togbutton.value = "Graphs";
     tabledata();

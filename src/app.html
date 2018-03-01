@@ -60,23 +60,26 @@ Remember to use unique element IDs and class names so that this app doesn't inte
 
 <!-- cot-app:body -->
  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+ <script type="text/javascript" src="https://d3js.org/d3.v4.min.js"></script>
+ <script type="text/javascript" src="https://d3js.org/d3-path.v1.min.js"></script>
+ <script type="text/javascript" src="https://d3js.org/d3-scale.v1.min.js"></script>
 
 <input type="button" id="tog" onclick="toggle();" value="--> Table">
 <input type="button" id="filter" onclick="toggleTAB();" value="Filtered Table">
 <br><br>
 
- <select id="AMPM" onchange="graphdata();">
+ <select id="AMPM" onchange="graphdata();sspathUpdate(vol_data);">
      <option id="AM" value="AM" name="AM" selected="selected">AM</option>
      <option id="PM" value="PM" name="PM">PM</option>
  </select>
 
 
- <select id="month" onchange="graphdata();">
+ <select id="month" onchange="graphdata();sspathUpdate(vol_data);">
      <option id="all" value="all" name="month">ALL</option>
-     <option id="9" value="9" name="month" selected="selected">September</option>
-     <option id="10" value="10" name="month">October</option>
-     <option id="11" value="11" name="month">November</option>
-     <option id="12" value="12" name="month">December</option>
+     <option id="Nov" value="11" name="month" selected="selected">November</option>
+     <option id="Dec" value="12" name="month">December</option>
+     <option id="Jan" value="1" name="month">January</option>
+     <option id="Feb" value="2" name="month">February</option>
  </select>
  <br>
 
@@ -88,6 +91,11 @@ Remember to use unique element IDs and class names so that this app doesn't inte
 <div id="mydiv5" class="graph"></div>
 <div id="mydiv6" class="graph"></div>
 </div>
+
+<div id="vol_map_container">
+  <svg id="vol_map"></svg>
+</div>
+
 
 <div id="wholetab" class="wtable"></div>
 <div id="totaltab">
@@ -119,8 +127,10 @@ It should contain script references that this application requires.
 
 <!-- place your application script references here: -->
 
+
 <script type="text/javascript" src="<!-- @echo SRC_PATH -->/scripts/car.js"></script>
 <script type="text/javascript" src="<!-- @echo SRC_PATH -->/scripts/baseline.js"></script>
+<script type="text/javascript" src="<!-- @echo SRC_PATH -->/scripts/vol_map.js"></script>
 <script type="text/javascript" src="<!-- @echo SRC_PATH -->/scripts/plotly_graph.js"></script>
 <script type="text/javascript" src="<!-- @echo SRC_PATH -->/scripts/plotly_table.js"></script>
 

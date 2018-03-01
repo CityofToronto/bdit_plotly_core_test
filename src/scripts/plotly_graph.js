@@ -81,9 +81,9 @@ function afterAttr(position, time, mon){
 };
 
 var AMPMIDs = ["AM", "PM"];
-var monthIDs = ["all","9","10","11","12"];
+var monthIDs = ["all","11","12","1","2"];
 var current_period = document.getElementById("AM").value;
-var current_month = document.getElementById("9").value;
+var current_month = document.getElementById("Nov").value;
 
 function selectChecker() {
 	AMPMIDs.forEach(function(selectID) {

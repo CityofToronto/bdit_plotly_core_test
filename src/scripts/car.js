@@ -4,7 +4,7 @@ var data =
     "corridor_id": 1,
     "corridor": "Dundas",
     "dir": "EB",
-    "mon": "2017-09-01 00:00:00",
+    "mon": "2017-11-01 00:00:00",
     "time_period": "AM",
     "travel_time": 7.5
   },
@@ -12,7 +12,7 @@ var data =
     "corridor_id": 1,
     "corridor": "Dundas",
     "dir": "EB",
-    "mon": "2017-10-01 00:00:00",
+    "mon": "2017-12-01 00:00:00",
     "time_period": "AM",
     "travel_time": 13.2
   },
@@ -20,7 +20,7 @@ var data =
     "corridor_id": 1,
     "corridor": "Dundas",
     "dir": "EB",
-    "mon": "2017-11-01 00:00:00",
+    "mon": "2017-01-01 00:00:00",
     "time_period": "AM",
     "travel_time": 13.9
   },
@@ -28,7 +28,7 @@ var data =
     "corridor_id": 1,
     "corridor": "Dundas",
     "dir": "EB",
-    "mon": "2017-12-01 00:00:00",
+    "mon": "2017-02-01 00:00:00",
     "time_period": "AM",
     "travel_time": 8.4
   },
@@ -36,7 +36,7 @@ var data =
     "corridor_id": 1,
     "corridor": "Dundas",
     "dir": "WB",
-    "mon": "2017-09-01 00:00:00",
+    "mon": "2017-11-01 00:00:00",
     "time_period": "AM",
     "travel_time": 8.1
   },
@@ -44,7 +44,7 @@ var data =
     "corridor_id": 1,
     "corridor": "Dundas",
     "dir": "WB",
-    "mon": "2017-10-01 00:00:00",
+    "mon": "2017-12-01 00:00:00",
     "time_period": "AM",
     "travel_time": 9.8
   },
@@ -52,7 +52,7 @@ var data =
     "corridor_id": 1,
     "corridor": "Dundas",
     "dir": "WB",
-    "mon": "2017-11-01 00:00:00",
+    "mon": "2017-01-01 00:00:00",
     "time_period": "AM",
     "travel_time": 11.4
   },
@@ -60,7 +60,7 @@ var data =
     "corridor_id": 1,
     "corridor": "Dundas",
     "dir": "WB",
-    "mon": "2017-12-01 00:00:00",
+    "mon": "2017-02-01 00:00:00",
     "time_period": "AM",
     "travel_time": 5.1
   },
@@ -68,7 +68,7 @@ var data =
     "corridor_id": 2,
     "corridor": "Queen",
     "dir": "EB",
-    "mon": "2017-09-01 00:00:00",
+    "mon": "2017-11-01 00:00:00",
     "time_period": "AM",
     "travel_time": 6.9
   },
@@ -76,7 +76,7 @@ var data =
     "corridor_id": 2,
     "corridor": "Queen",
     "dir": "EB",
-    "mon": "2017-10-01 00:00:00",
+    "mon": "2017-12-01 00:00:00",
     "time_period": "AM",
     "travel_time": 8.7
   },
@@ -84,15 +84,15 @@ var data =
     "corridor_id": 2,
     "corridor": "Queen",
     "dir": "EB",
-    "mon": "2017-11-01 00:00:00",
+    "mon": "2017-01-01 00:00:00",
     "time_period": "AM",
-    "travel_time": 10.3
+    "travel_time": 12.3
   },
   {
     "corridor_id": 2,
     "corridor": "Queen",
     "dir": "EB",
-    "mon": "2017-12-01 00:00:00",
+    "mon": "2017-02-01 00:00:00",
     "time_period": "AM",
     "travel_time": 13.1
   },
@@ -100,7 +100,7 @@ var data =
     "corridor_id": 2,
     "corridor": "Queen",
     "dir": "WB",
-    "mon": "2017-09-01 00:00:00",
+    "mon": "2017-11-01 00:00:00",
     "time_period": "AM",
     "travel_time": 11.2
   },
@@ -108,7 +108,7 @@ var data =
     "corridor_id": 2,
     "corridor": "Queen",
     "dir": "WB",
-    "mon": "2017-10-01 00:00:00",
+    "mon": "2017-12-01 00:00:00",
     "time_period": "AM",
     "travel_time": 7.7
   },
@@ -116,7 +116,7 @@ var data =
     "corridor_id": 2,
     "corridor": "Queen",
     "dir": "WB",
-    "mon": "2017-11-01 00:00:00",
+    "mon": "2017-01-01 00:00:00",
     "time_period": "AM",
     "travel_time": 12
   },
@@ -124,7 +124,7 @@ var data =
     "corridor_id": 2,
     "corridor": "Queen",
     "dir": "WB",
-    "mon": "2017-12-01 00:00:00",
+    "mon": "2017-02-01 00:00:00",
     "time_period": "AM",
     "travel_time": 8.5
   },
@@ -132,7 +132,7 @@ var data =
     "corridor_id": 3,
     "corridor": "Front",
     "dir": "EB",
-    "mon": "2017-09-01 00:00:00",
+    "mon": "2017-11-01 00:00:00",
     "time_period": "AM",
     "travel_time": 9
   },
@@ -140,7 +140,7 @@ var data =
     "corridor_id": 3,
     "corridor": "Front",
     "dir": "EB",
-    "mon": "2017-10-01 00:00:00",
+    "mon": "2017-12-01 00:00:00",
     "time_period": "AM",
     "travel_time": 8.5
   },
@@ -148,7 +148,7 @@ var data =
     "corridor_id": 3,
     "corridor": "Front",
     "dir": "EB",
-    "mon": "2017-11-01 00:00:00",
+    "mon": "2017-01-01 00:00:00",
     "time_period": "AM",
     "travel_time": 13.1
   },
@@ -156,7 +156,7 @@ var data =
     "corridor_id": 3,
     "corridor": "Front",
     "dir": "EB",
-    "mon": "2017-12-01 00:00:00",
+    "mon": "2017-02-01 00:00:00",
     "time_period": "AM",
     "travel_time": 9.3
   },
@@ -164,7 +164,7 @@ var data =
     "corridor_id": 3,
     "corridor": "Front",
     "dir": "WB",
-    "mon": "2017-09-01 00:00:00",
+    "mon": "2017-11-01 00:00:00",
     "time_period": "AM",
     "travel_time": 13.9
   },
@@ -172,7 +172,7 @@ var data =
     "corridor_id": 3,
     "corridor": "Front",
     "dir": "WB",
-    "mon": "2017-10-01 00:00:00",
+    "mon": "2017-12-01 00:00:00",
     "time_period": "AM",
     "travel_time": 6.8
   },
@@ -180,7 +180,7 @@ var data =
     "corridor_id": 3,
     "corridor": "Front",
     "dir": "WB",
-    "mon": "2017-11-01 00:00:00",
+    "mon": "2017-01-01 00:00:00",
     "time_period": "AM",
     "travel_time": 8.6
   },
@@ -188,7 +188,7 @@ var data =
     "corridor_id": 3,
     "corridor": "Front",
     "dir": "WB",
-    "mon": "2017-12-01 00:00:00",
+    "mon": "2017-02-01 00:00:00",
     "time_period": "AM",
     "travel_time": 6.3
   },
@@ -196,7 +196,7 @@ var data =
     "corridor_id": 4,
     "corridor": "Adelaide",
     "dir": "EB",
-    "mon": "2017-09-01 00:00:00",
+    "mon": "2017-11-01 00:00:00",
     "time_period": "AM",
     "travel_time": 13.8
   },
@@ -204,7 +204,7 @@ var data =
     "corridor_id": 4,
     "corridor": "Adelaide",
     "dir": "EB",
-    "mon": "2017-10-01 00:00:00",
+    "mon": "2017-12-01 00:00:00",
     "time_period": "AM",
     "travel_time": 10.5
   },
@@ -212,7 +212,7 @@ var data =
     "corridor_id": 4,
     "corridor": "Adelaide",
     "dir": "EB",
-    "mon": "2017-11-01 00:00:00",
+    "mon": "2017-01-01 00:00:00",
     "time_period": "AM",
     "travel_time": 11.4
   },
@@ -220,7 +220,7 @@ var data =
     "corridor_id": 4,
     "corridor": "Adelaide",
     "dir": "EB",
-    "mon": "2017-12-01 00:00:00",
+    "mon": "2017-02-01 00:00:00",
     "time_period": "AM",
     "travel_time": 8.1
   },
@@ -228,7 +228,7 @@ var data =
     "corridor_id": 5,
     "corridor": "Richmond",
     "dir": "WB",
-    "mon": "2017-09-01 00:00:00",
+    "mon": "2017-11-01 00:00:00",
     "time_period": "AM",
     "travel_time": 9.2
   },
@@ -236,7 +236,7 @@ var data =
     "corridor_id": 5,
     "corridor": "Richmond",
     "dir": "WB",
-    "mon": "2017-10-01 00:00:00",
+    "mon": "2017-12-01 00:00:00",
     "time_period": "AM",
     "travel_time": 13.9
   },
@@ -244,7 +244,7 @@ var data =
     "corridor_id": 5,
     "corridor": "Richmond",
     "dir": "WB",
-    "mon": "2017-11-01 00:00:00",
+    "mon": "2017-01-01 00:00:00",
     "time_period": "AM",
     "travel_time": 12.4
   },
@@ -252,7 +252,7 @@ var data =
     "corridor_id": 5,
     "corridor": "Richmond",
     "dir": "WB",
-    "mon": "2017-12-01 00:00:00",
+    "mon": "2017-02-01 00:00:00",
     "time_period": "AM",
     "travel_time": 11.7
   },
@@ -260,7 +260,7 @@ var data =
     "corridor_id": 6,
     "corridor": "Wellington",
     "dir": "EB",
-    "mon": "2017-09-01 00:00:00",
+    "mon": "2017-11-01 00:00:00",
     "time_period": "AM",
     "travel_time": 12
   },
@@ -268,7 +268,7 @@ var data =
     "corridor_id": 6,
     "corridor": "Wellington",
     "dir": "EB",
-    "mon": "2017-10-01 00:00:00",
+    "mon": "2017-12-01 00:00:00",
     "time_period": "AM",
     "travel_time": 11.3
   },
@@ -276,7 +276,7 @@ var data =
     "corridor_id": 6,
     "corridor": "Wellington",
     "dir": "EB",
-    "mon": "2017-11-01 00:00:00",
+    "mon": "2017-01-01 00:00:00",
     "time_period": "AM",
     "travel_time": 5.1
   },
@@ -284,7 +284,7 @@ var data =
     "corridor_id": 6,
     "corridor": "Wellington",
     "dir": "EB",
-    "mon": "2017-12-01 00:00:00",
+    "mon": "2017-02-01 00:00:00",
     "time_period": "AM",
     "travel_time": 5.1
   },
@@ -292,7 +292,7 @@ var data =
     "corridor_id": 6,
     "corridor": "Wellington",
     "dir": "WB",
-    "mon": "2017-09-01 00:00:00",
+    "mon": "2017-11-01 00:00:00",
     "time_period": "AM",
     "travel_time": 6.1
   },
@@ -300,7 +300,7 @@ var data =
     "corridor_id": 6,
     "corridor": "Wellington",
     "dir": "WB",
-    "mon": "2017-10-01 00:00:00",
+    "mon": "2017-12-01 00:00:00",
     "time_period": "AM",
     "travel_time": 11.5
   },
@@ -308,7 +308,7 @@ var data =
     "corridor_id": 6,
     "corridor": "Wellington",
     "dir": "WB",
-    "mon": "2017-11-01 00:00:00",
+    "mon": "2017-01-01 00:00:00",
     "time_period": "AM",
     "travel_time": 5.2
   },
@@ -316,7 +316,7 @@ var data =
     "corridor_id": 6,
     "corridor": "Wellington",
     "dir": "WB",
-    "mon": "2017-12-01 00:00:00",
+    "mon": "2017-02-01 00:00:00",
     "time_period": "AM",
     "travel_time": 8
   },
@@ -324,7 +324,7 @@ var data =
     "corridor_id": 1,
     "corridor": "Dundas",
     "dir": "EB",
-    "mon": "2017-09-01 00:00:00",
+    "mon": "2017-11-01 00:00:00",
     "time_period": "PM",
     "travel_time": 5.3
   },
@@ -332,7 +332,7 @@ var data =
     "corridor_id": 1,
     "corridor": "Dundas",
     "dir": "EB",
-    "mon": "2017-10-01 00:00:00",
+    "mon": "2017-12-01 00:00:00",
     "time_period": "PM",
     "travel_time": 10.5
   },
@@ -340,7 +340,7 @@ var data =
     "corridor_id": 1,
     "corridor": "Dundas",
     "dir": "EB",
-    "mon": "2017-11-01 00:00:00",
+    "mon": "2017-01-01 00:00:00",
     "time_period": "PM",
     "travel_time": 6.1
   },
@@ -348,7 +348,7 @@ var data =
     "corridor_id": 1,
     "corridor": "Dundas",
     "dir": "EB",
-    "mon": "2017-12-01 00:00:00",
+    "mon": "2017-02-01 00:00:00",
     "time_period": "PM",
     "travel_time": 11.5
   },
@@ -356,7 +356,7 @@ var data =
     "corridor_id": 1,
     "corridor": "Dundas",
     "dir": "WB",
-    "mon": "2017-09-01 00:00:00",
+    "mon": "2017-11-01 00:00:00",
     "time_period": "PM",
     "travel_time": 13.2
   },
@@ -364,7 +364,7 @@ var data =
     "corridor_id": 1,
     "corridor": "Dundas",
     "dir": "WB",
-    "mon": "2017-10-01 00:00:00",
+    "mon": "2017-12-01 00:00:00",
     "time_period": "PM",
     "travel_time": 13.1
   },
@@ -372,7 +372,7 @@ var data =
     "corridor_id": 1,
     "corridor": "Dundas",
     "dir": "WB",
-    "mon": "2017-11-01 00:00:00",
+    "mon": "2017-01-01 00:00:00",
     "time_period": "PM",
     "travel_time": 5
   },
@@ -380,7 +380,7 @@ var data =
     "corridor_id": 1,
     "corridor": "Dundas",
     "dir": "WB",
-    "mon": "2017-12-01 00:00:00",
+    "mon": "2017-02-01 00:00:00",
     "time_period": "PM",
     "travel_time": 7.2
   },
@@ -388,7 +388,7 @@ var data =
     "corridor_id": 2,
     "corridor": "Queen",
     "dir": "EB",
-    "mon": "2017-09-01 00:00:00",
+    "mon": "2017-11-01 00:00:00",
     "time_period": "PM",
     "travel_time": 6.6
   },
@@ -396,7 +396,7 @@ var data =
     "corridor_id": 2,
     "corridor": "Queen",
     "dir": "EB",
-    "mon": "2017-10-01 00:00:00",
+    "mon": "2017-12-01 00:00:00",
     "time_period": "PM",
     "travel_time": 13.1
   },
@@ -404,7 +404,7 @@ var data =
     "corridor_id": 2,
     "corridor": "Queen",
     "dir": "EB",
-    "mon": "2017-11-01 00:00:00",
+    "mon": "2017-01-01 00:00:00",
     "time_period": "PM",
     "travel_time": 11.5
   },
@@ -412,7 +412,7 @@ var data =
     "corridor_id": 2,
     "corridor": "Queen",
     "dir": "EB",
-    "mon": "2017-12-01 00:00:00",
+    "mon": "2017-02-01 00:00:00",
     "time_period": "PM",
     "travel_time": 5.5
   },
@@ -420,7 +420,7 @@ var data =
     "corridor_id": 2,
     "corridor": "Queen",
     "dir": "WB",
-    "mon": "2017-09-01 00:00:00",
+    "mon": "2017-11-01 00:00:00",
     "time_period": "PM",
     "travel_time": 14.9
   },
@@ -428,7 +428,7 @@ var data =
     "corridor_id": 2,
     "corridor": "Queen",
     "dir": "WB",
-    "mon": "2017-10-01 00:00:00",
+    "mon": "2017-12-01 00:00:00",
     "time_period": "PM",
     "travel_time": 5.1
   },
@@ -436,7 +436,7 @@ var data =
     "corridor_id": 2,
     "corridor": "Queen",
     "dir": "WB",
-    "mon": "2017-11-01 00:00:00",
+    "mon": "2017-01-01 00:00:00",
     "time_period": "PM",
     "travel_time": 6.8
   },
@@ -444,7 +444,7 @@ var data =
     "corridor_id": 2,
     "corridor": "Queen",
     "dir": "WB",
-    "mon": "2017-12-01 00:00:00",
+    "mon": "2017-02-01 00:00:00",
     "time_period": "PM",
     "travel_time": 13.7
   },
@@ -452,7 +452,7 @@ var data =
     "corridor_id": 3,
     "corridor": "Front",
     "dir": "EB",
-    "mon": "2017-09-01 00:00:00",
+    "mon": "2017-11-01 00:00:00",
     "time_period": "PM",
     "travel_time": 10.6
   },
@@ -460,7 +460,7 @@ var data =
     "corridor_id": 3,
     "corridor": "Front",
     "dir": "EB",
-    "mon": "2017-10-01 00:00:00",
+    "mon": "2017-12-01 00:00:00",
     "time_period": "PM",
     "travel_time": 13.3
   },
@@ -468,7 +468,7 @@ var data =
     "corridor_id": 3,
     "corridor": "Front",
     "dir": "EB",
-    "mon": "2017-11-01 00:00:00",
+    "mon": "2017-01-01 00:00:00",
     "time_period": "PM",
     "travel_time": 6.8
   },
@@ -476,7 +476,7 @@ var data =
     "corridor_id": 3,
     "corridor": "Front",
     "dir": "EB",
-    "mon": "2017-12-01 00:00:00",
+    "mon": "2017-02-01 00:00:00",
     "time_period": "PM",
     "travel_time": 14.8
   },
@@ -484,7 +484,7 @@ var data =
     "corridor_id": 3,
     "corridor": "Front",
     "dir": "WB",
-    "mon": "2017-09-01 00:00:00",
+    "mon": "2017-11-01 00:00:00",
     "time_period": "PM",
     "travel_time": 12.1
   },
@@ -492,7 +492,7 @@ var data =
     "corridor_id": 3,
     "corridor": "Front",
     "dir": "WB",
-    "mon": "2017-10-01 00:00:00",
+    "mon": "2017-12-01 00:00:00",
     "time_period": "PM",
     "travel_time": 14.2
   },
@@ -500,7 +500,7 @@ var data =
     "corridor_id": 3,
     "corridor": "Front",
     "dir": "WB",
-    "mon": "2017-11-01 00:00:00",
+    "mon": "2017-01-01 00:00:00",
     "time_period": "PM",
     "travel_time": 11.5
   },
@@ -508,7 +508,7 @@ var data =
     "corridor_id": 3,
     "corridor": "Front",
     "dir": "WB",
-    "mon": "2017-12-01 00:00:00",
+    "mon": "2017-02-01 00:00:00",
     "time_period": "PM",
     "travel_time": 9.1
   },
@@ -516,7 +516,7 @@ var data =
     "corridor_id": 4,
     "corridor": "Adelaide",
     "dir": "EB",
-    "mon": "2017-09-01 00:00:00",
+    "mon": "2017-11-01 00:00:00",
     "time_period": "PM",
     "travel_time": 10.5
   },
@@ -524,7 +524,7 @@ var data =
     "corridor_id": 4,
     "corridor": "Adelaide",
     "dir": "EB",
-    "mon": "2017-10-01 00:00:00",
+    "mon": "2017-12-01 00:00:00",
     "time_period": "PM",
     "travel_time": 11.7
   },
@@ -532,7 +532,7 @@ var data =
     "corridor_id": 4,
     "corridor": "Adelaide",
     "dir": "EB",
-    "mon": "2017-11-01 00:00:00",
+    "mon": "2017-01-01 00:00:00",
     "time_period": "PM",
     "travel_time": 9.2
   },
@@ -540,7 +540,7 @@ var data =
     "corridor_id": 4,
     "corridor": "Adelaide",
     "dir": "EB",
-    "mon": "2017-12-01 00:00:00",
+    "mon": "2017-02-01 00:00:00",
     "time_period": "PM",
     "travel_time": 11.6
   },
@@ -548,7 +548,7 @@ var data =
     "corridor_id": 5,
     "corridor": "Richmond",
     "dir": "WB",
-    "mon": "2017-09-01 00:00:00",
+    "mon": "2017-11-01 00:00:00",
     "time_period": "PM",
     "travel_time": 8.2
   },
@@ -556,7 +556,7 @@ var data =
     "corridor_id": 5,
     "corridor": "Richmond",
     "dir": "WB",
-    "mon": "2017-10-01 00:00:00",
+    "mon": "2017-12-01 00:00:00",
     "time_period": "PM",
     "travel_time": 9.4
   },
@@ -564,7 +564,7 @@ var data =
     "corridor_id": 5,
     "corridor": "Richmond",
     "dir": "WB",
-    "mon": "2017-11-01 00:00:00",
+    "mon": "2017-01-01 00:00:00",
     "time_period": "PM",
     "travel_time": 14.6
   },
@@ -572,7 +572,7 @@ var data =
     "corridor_id": 5,
     "corridor": "Richmond",
     "dir": "WB",
-    "mon": "2017-12-01 00:00:00",
+    "mon": "2017-02-01 00:00:00",
     "time_period": "PM",
     "travel_time": 8.5
   },
@@ -580,7 +580,7 @@ var data =
     "corridor_id": 6,
     "corridor": "Wellington",
     "dir": "EB",
-    "mon": "2017-09-01 00:00:00",
+    "mon": "2017-11-01 00:00:00",
     "time_period": "PM",
     "travel_time": 15
   },
@@ -588,7 +588,7 @@ var data =
     "corridor_id": 6,
     "corridor": "Wellington",
     "dir": "EB",
-    "mon": "2017-10-01 00:00:00",
+    "mon": "2017-12-01 00:00:00",
     "time_period": "PM",
     "travel_time": 5.6
   },
@@ -596,7 +596,7 @@ var data =
     "corridor_id": 6,
     "corridor": "Wellington",
     "dir": "EB",
-    "mon": "2017-11-01 00:00:00",
+    "mon": "2017-01-01 00:00:00",
     "time_period": "PM",
     "travel_time": 15
   },
@@ -604,7 +604,7 @@ var data =
     "corridor_id": 6,
     "corridor": "Wellington",
     "dir": "EB",
-    "mon": "2017-12-01 00:00:00",
+    "mon": "2017-02-01 00:00:00",
     "time_period": "PM",
     "travel_time": 13.2
   },
@@ -612,7 +612,7 @@ var data =
     "corridor_id": 6,
     "corridor": "Wellington",
     "dir": "WB",
-    "mon": "2017-09-01 00:00:00",
+    "mon": "2017-11-01 00:00:00",
     "time_period": "PM",
     "travel_time": 13.7
   },
@@ -620,7 +620,7 @@ var data =
     "corridor_id": 6,
     "corridor": "Wellington",
     "dir": "WB",
-    "mon": "2017-10-01 00:00:00",
+    "mon": "2017-12-01 00:00:00",
     "time_period": "PM",
     "travel_time": 15
   },
@@ -628,7 +628,7 @@ var data =
     "corridor_id": 6,
     "corridor": "Wellington",
     "dir": "WB",
-    "mon": "2017-11-01 00:00:00",
+    "mon": "2017-01-01 00:00:00",
     "time_period": "PM",
     "travel_time": 5.4
   },
@@ -636,7 +636,7 @@ var data =
     "corridor_id": 6,
     "corridor": "Wellington",
     "dir": "WB",
-    "mon": "2017-12-01 00:00:00",
+    "mon": "2017-02-01 00:00:00",
     "time_period": "PM",
     "travel_time": 5.4
   }
